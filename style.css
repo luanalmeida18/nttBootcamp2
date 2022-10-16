@@ -1,0 +1,113 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    padding: 0 25px;
+    width: 25%;
+    color: white;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    border: 2px solid rgb(129, 15, 174);
+    height: 100%;
+    width: 20%;
+}
+
+.menu a {
+    font-weight: 500;
+    color: rgb(129, 15, 174);
+    border-radius: 5px;
+
+}
+
+.menu a:hover {
+    opacity: 0.8;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.header {
+    min-height: 150px;
+    margin: 10px auto;
+}
+.centralizarImagem {
+   padding: 0 25%;
+}
+
+
+.content {
+    background-color: rgba(129, 15, 174, 0);
+    min-height: 300px;
+    padding: 20px;
+}
+.content h1, h2, h3, h4 {
+    color: rgb(129, 15, 174);
+}
+
+.content table {
+    width: 50%;
+    text-align: center;
+    color: rgb(129, 15, 174);
+    border: 1px solid rgb(129, 15, 174);
+}
+
+.content table tr:nth-child(even) td{
+    background-color: rgba(129, 15, 174, 0.1);
+}
+
+.tabelaHorarios {
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.footer {
+    border-radius: 5px;
+    background-color: rgb(129, 15, 174);
+    color: white;
+    margin: 0;
+    min-height: 150px;
+    display: flex;
+    width: 100%;
+    padding: 5px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer h3 {
+    color: white;
+}
+
+.footer a:hover {
+    opacity: 0.8;
+    color: #ABD9FF;
+}
+
+.copyright {
+    text-align: center;
+}
